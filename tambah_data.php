@@ -15,4 +15,4 @@ $sql = "insert into customer_data (customer_name, customer_id_number, customer_g
 echo $sql;
 mysqli_query($connect, $sql);
 //echo $connect;
-header('location:pemesanan.php');
+header("location:hasil_pesanan.php?id=$x2");
