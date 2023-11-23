@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="text"], form input[type="date"] {
+    width: 100%;
+    padding: 5px;
+}
+
+form select {
+    width: 100%;
+    padding: 5px;
+}
+
+form input[type="button"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
